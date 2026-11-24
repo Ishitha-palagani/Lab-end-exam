@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Movie Database</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Movie Database Management System</h1>
+
+    <div class="container">
+
+        <h2>Add Movie</h2>
+
+        <input type="text" id="title" placeholder="Movie Title">
+        <input type="text" id="genre" placeholder="Genre">
+        <input type="number" id="year" placeholder="Release Year">
+        <input type="text" id="director" placeholder="Director">
+        <input type="number" id="rating" placeholder="Rating">
+
+        <button onclick="addMovie()">Add Movie</button>
+
+        <h2>Movie Collection</h2>
+
+        <div id="movieList"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
